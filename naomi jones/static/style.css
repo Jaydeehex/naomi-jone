@@ -1,0 +1,196 @@
+/* General Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    padding: 4em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1em;
+}
+
+.col-4,
+.col-6,
+.col-8,
+.col-12 {
+    padding: 0 1em;
+}
+
+/* Navigation */
+#nav {
+    background: #333;
+    color: #fff;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav ul li {
+    padding: 1em;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Home Section */
+#top {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block; /* Ensures circular shape */
+    margin: 0 auto; /* Center align image */
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    text-align: center;
+}
+
+/* Video Sections */
+.video-container {
+    text-align: center;
+    margin-bottom: 2em; /* Adjust margin as needed */
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+#contact {
+    background: #f0f0f0;
+    text-align: center;
+    padding-bottom: 2em; /* Adjust padding as needed */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form .row {
+    margin: 0 -0.5em;
+}
+
+.contact-form .col-6 {
+    padding: 0 0.5em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 120px; /* Adjust textarea height as needed */
+}
+
+.contact-form .button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .button.alt {
+    background-color: #555;
+}
+
+.contact-form .button:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Social Icons */
+.social {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon img {
+    width: 40px; /* Adjust size of social icons */
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2); /* Scale up on hover */
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
